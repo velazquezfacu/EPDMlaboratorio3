@@ -1,0 +1,84 @@
+.primer_personaje{
+    background-color: #474545;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.primerarticle_txt1{
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.segundo_personaje{
+    background-color: #474545;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.segundoarticle_img2 img{
+    justify-content: flex-end;
+}
+
+.segundoarticle_txt2{
+    font-family: 'Nunito', sans-serif;
+}
+
+.tercer_personaje{
+    background-color: #474545;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.tercerarticle_txt3{
+    font-family: 'Nunito', sans-serif;
+}
+
+.cuarto_personaje{
+    background-color: #474545;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuartoarticle_txt4{
+    font-family: 'Nunito', sans-serif;
+}
+
+.quinto_personaje{
+    background-color: #474545;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quintoarticle_txt5{
+    font-family: 'Nunito', sans-serif;
+}
+
+.sexto_personaje{
+    background-color: #474545;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.sextoarticle_txt6{
+    font-family: 'Nunito', sans-serif;
+}
+
+.septimo_personaje{
+    background-color: #474545;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.septimoarticle_txt7{
+    font-family: 'Nunito', sans-serif;
+}
