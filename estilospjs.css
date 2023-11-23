@@ -1,6 +1,6 @@
 
 .titulopjssecun{
-    background-color: #474545;
+    
     height: 100px;
     margin: 5%;
     margin-top: 0;
@@ -16,7 +16,7 @@
 }
 
 .titulopjsprincipales{
-    background-color: #474545;
+    
     height: 100px;
     margin: 5%;
     margin-top: 0;
@@ -31,15 +31,12 @@
 }
 
 
-
-
-
-
 .primer_personaje{
     background-color: #474545;
     display: block;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1300px){
@@ -50,8 +47,15 @@
 }
 
 
-.primerarticle_txt1{
+.article_txt{
     font-family: 'Nunito', sans-serif;
+    padding: 10px 25px;
+}
+
+.article_img {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
 }
 
 .segundo_personaje{
@@ -62,15 +66,6 @@
     
 }
 
-.segundoarticle_img2 img{
-    justify-content: flex-end;
-    
-}
-
-.segundoarticle_txt2{
-    font-family: 'Nunito', sans-serif;
-}
-
 .segundo_personajesecun{
     background-color: #474545;
     display: grid;
@@ -78,18 +73,6 @@
     justify-content: center;
 
 }
-
-.segundoarticle_img2secun img{
-    justify-content: flex-end;
-    width: 550px;
-    height: 450px;
-}
-
-.segundoarticle_txt2secun{
-    font-family: 'Nunito', sans-serif;
-    
-}
-
 
 
 .tercer_personaje{
@@ -99,24 +82,11 @@
     justify-content: center;
 }
 
-.tercerarticle_img3secun img {
-    width: 550px;
-    height: 450px;
-}
-
-.tercerarticle_txt3{
-    font-family: 'Nunito', sans-serif;
-}
-
 .tercer_personajesecun{
     background-color: #474545;
     display: grid;
     align-items: center;
     justify-content: center;
-}
-
-.tercerarticle_txt3secun{
-    font-family: 'Nunito', sans-serif;
 }
 
 .quinto_personajesecun{
@@ -126,17 +96,11 @@
     justify-content: center;
 }
 
-
-
 .cuarto_personaje{
     background-color: #474545;
     display: grid;
     align-items: center;
     justify-content: center;
-}
-
-.cuartoarticle_txt4{
-    font-family: 'Nunito', sans-serif;
 }
 
 .cuarto_personajesecun{
@@ -147,21 +111,11 @@
 }
 
 
-
-.cuartoarticle_txt4secun{
-    font-family: 'Nunito', sans-serif;
-}
-
 .quinto_personaje{
     background-color: #474545;
     display: grid;
     align-items: center;
     justify-content: center;
-}
-
-
-.quintoarticle_txt5{
-    font-family: 'Nunito', sans-serif;
 }
 
 .sexto_personaje{
@@ -171,10 +125,6 @@
     justify-content: center;
 }
 
-.sextoarticle_txt6{
-    font-family: 'Nunito', sans-serif;
-}
-
 .septimo_personaje{
     background-color: #474545;
     display: grid;
@@ -182,8 +132,3 @@
     justify-content: center;
 }
 
-
-
-.septimoarticle_txt7{
-    font-family: 'Nunito', sans-serif;
-}
