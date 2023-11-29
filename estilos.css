@@ -9,16 +9,11 @@
 
 
 .imgen{
-
     height: 450px;
     width: 450px;
-    
 }
 
 body{
-
-    
-
     background-image: 
     linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 1)),
     url("Images/Encarcelado.jpg");
@@ -31,15 +26,30 @@ body{
     gap: 32px;  
 
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
+header{
+	padding-top: 2%;
+	padding-right: 7%;
+	padding-bottom: 2%;
+	padding-left: 7%;
+	display: flex;
+	justify-content: space-between;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
+    background: linear-gradient(
+        90deg,
+       
+        rgba(0,0,0,0)0%,
+        rgba(67,63,62)70%
+    ); 
 }
 
 .content{
+   
     min-height: 80px;
     background: linear-gradient(
         90deg,
@@ -70,63 +80,7 @@ body{
     gap: 1rem;
 }
 
-@media screen and (max-width: 550px) {
-    .abrir-menu,
-    .cerrar-menu{
-        display: block;
-        border: 0;
-        font-size: 1.25rem;
-        background-color: transparent;
-        cursor: pointer;
-    }
 
-    .abrir-menu{
-        color: #ecececec;
-    }
-
-    .cerrar-menu{
-        color: #ecececec;
-    }
-
-    .navbar{
-        opacity: 0;
-        visibility: hidden;
-
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        gap: 1rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 50;
-        background: linear-gradient(
-        90deg,
-       
-        rgba(0,0,0,0)0%,
-        rgba(67,63,62)70%
-    );   ;
-        padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba( 0 , 0 , 0 , .5);
-       
-    }
-
-    .navbar.visible{
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .nav-list{
-        flex-direction: column;
-        align-items: end;
-    }
-
-    .nav-list li a{
-        color: #ecececec;
-
-    }
-    
-}
 
 
 .menu .navbar ul li {
@@ -178,41 +132,7 @@ body{
     display: initial;
 }
 
-@media(max-width: 950px) {
-    .menu{
-        padding: 20px 10px;
-    }
 
-    .menu .navbar ul li {
-        width: 100px;
-    }
-
-    .menu .navbar ul li a {
-        padding: 8px 30px 30px 10px;  
-    }
-
-    .menu .navbar ul li ul {
-        position: relative;
-        width: 100px;
-        left: 0;
-    }
-
-    .menu .navbar ul li ul li {
-        background: linear-gradient(
-        90deg,
-       
-        rgba(0,0,0,0)0%,
-        rgba(67,63,62)70%
-    );   
-    
-    }
-
-    .menu .navbar ul li ul li ul {
-        position: relative;
-        width: 100px;
-        left: 0;
-    }
-}
 
 
 header img {
@@ -254,48 +174,180 @@ nav ul li {
     padding-right: 50px;
 }
 
-@media screen and (max-width: 500px){
+@media (max-width: 480px){
+
+    header{
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background: linear-gradient(
+        90deg,
+       
+        rgba(0,0,0,0)0%,
+        rgba(67,63,62)70%
+    ); 
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    header div, header a {
+        flex: 1 0 50%;
+    }
+    header nav {
+        flex-basis: 100%;
+    }
+
+    .navbar{
+        opacity: 0;
+        visibility: hidden;
+
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 50;
+        background: linear-gradient(
+        90deg,
+       
+        rgba(0,0,0,0)0%,
+        rgba(67,63,62)70%
+    );   
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba( 0 , 0 , 0 , .5);
+       
+    }
+
+    .navbar.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li a{
+        color: #ecececec;
+
+    }
+
+
+    .abrir-menu,
+    .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .abrir-menu{
+        color: #ecececec;
+    }
+
+    .cerrar-menu{
+        color: #ecececec;
+    }
+
+    .menu .navbar ul li ul {
+        position: relative;
+        width: 100px;
+        left: 0;
+    }
+
+    .menu .navbar ul li ul li {
+        background: linear-gradient(
+        90deg,
+       
+        rgba(0,0,0,0)0%,
+        rgba(67,63,62)70%
+    );   
+    
+    }
+
+    section{
+        max-width: 480px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .inicio-primer-section {
 
         flex-direction: column;
-        align-items: start;
-        justify-content: start;
+        /*align-items: start;
+        justify-content: start;*/
+
+        height: 480px;
+	    padding: 10%;
         
 
     }
+
     .contenedor1_section1_article{
         
-        height: 600px;
+        
+        padding-top: 30px ;
+        padding-right: 100px;
+        padding-bottom: 30px;
+        
+    }
+
+    .imgen{
+        height: 400px;
         width:  450px;
-        padding: 3px 0;
+        padding-right: 50px;
+        padding-left: 25px;
     }
 
-    body{
-        width: 50%;
+    .cuadro{
+        background-color: #433F3E;
+        color: white;
+        /*padding-top: 250px;*/
+        text-align: start;
+        justify-content: center;
+        margin-top: 200px;
+        margin-right: 100px;
+        
+        
+         height: 805px ;
+
     }
+    .parrafohome{
+       font-size: 15px;
+       padding: 10px 10px;
+    }
+
+    .titulohome{
+        margin-top: 30px;
+        
+    }
+
+
+    footer{
+        /*height: 250px;*/
+        
+        padding: 0 15px;
+        /*margin-top: 150px;*/
+        
+    }
+
+
+   
+
+
 }
- 
-
-
-
- 
-
-/*@media (max-width: 480px){
-    .cuadro {
-        flex-direction: row;
-        align-items: start;
-        justify-content: start;
-        display: grid;
-    }
-
-}*/
 
 .cuadro{
     background-color: #433F3E;
-    margin-left: 100px;
-    margin-right: 100px;
+    
     color: white;
-    padding: 35px;
+    padding: 10px 25px;
     text-align: start;
     
     
@@ -303,6 +355,7 @@ nav ul li {
 
 .parrafohome{
     justify-content: start;
+    
 }
 
 .titulogaleria{
@@ -398,16 +451,6 @@ nav ul li {
     text-align: center;
 }
 
-@media screen and (max-width:400px){
-    .galery{
-        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    }
-
-    .close{
-        top: 20px;
-        right: 20px;
-    }
-}
 
 
 .contenedor{
@@ -419,6 +462,7 @@ nav ul li {
 .footer{
     background-color: #242628;
     padding: 20px 0 ;
+
     
 }
 
@@ -625,12 +669,6 @@ nav ul li {
     transform: scale(1);
 }
 
-@media (max-width: 425px) {
-
-    .form_titulo{
-        font-size: 1.8rem;
-    }
-}
 
 
 
