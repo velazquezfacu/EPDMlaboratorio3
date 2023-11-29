@@ -39,12 +39,6 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 850px){
-    .primer_personaje {
-        flex-direction: row;
-    }
-
-}
 
 
 .article_txt{
