@@ -508,7 +508,7 @@ nav ul li {
     transform: scale(1);
 }
 
-@media (max-width: 480px){
+@media (max-width: 576px){
 
     header{
         align-items: center;
@@ -683,7 +683,7 @@ nav ul li {
         /*padding-top: 250px;*/
         text-align: start;
         justify-content: center;
-        margin-top: 3px;
+        margin-top: 0px;
         margin-right: 50px;
         margin-left: 50px;
         margin-bottom: 20px;
@@ -719,14 +719,14 @@ nav ul li {
         padding-top: 40px;
         width: 350px;
         height: 400px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 
-    .videotrailer iframe{
+    /*.videotrailer iframe{
         width: 100%;
         margin-left: 60px;
-    }
+    }*/
 
    
 
