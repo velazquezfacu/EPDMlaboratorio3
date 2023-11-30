@@ -666,7 +666,7 @@ nav ul li {
         
         padding-top: 0px;
         padding-right: 100px;
-        padding-bottom: 5px;
+        /*padding-bottom: 5px;*/
         
     }
 
@@ -695,11 +695,16 @@ nav ul li {
     }
     .parrafohome{
        font-size: 15px;
-       padding: 10px 10px;
+       padding-bottom: 30px;
+       padding-top: 10px;
+       padding-left: 10px;
+       padding-right: 10px ;
     }
 
     .titulohome{
         margin-top: 30px;
+        padding-left: 10px;
+        
         
     }
 
@@ -710,6 +715,21 @@ nav ul li {
         padding: 0 15px;
         margin-top: 200px;
         
+    }
+
+    .footer-links{
+        width: 50%;
+        padding: 0 15px;
+        justify-content: space-between;
+        
+        
+    }
+    .footer-row{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
     }
 
    .videotrailer{
